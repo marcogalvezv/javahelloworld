@@ -18,7 +18,8 @@ public class HelloWorldController {
         List<Person> people = new ArrayList<>();
         Person p = new Person();
         p.id="1";
-        p.name="Marco Galvez Vargas";
+        p.name="Marco";
+        p.lastName= "Galvez";
         people.add(p);
         return people;
     }
@@ -27,6 +28,7 @@ public class HelloWorldController {
     {
       public String id;
       public String name;
+      public String lastName;
     }
 }
 
