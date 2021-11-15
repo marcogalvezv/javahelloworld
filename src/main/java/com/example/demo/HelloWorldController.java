@@ -18,7 +18,7 @@ public class HelloWorldController {
         List<Person> people = new ArrayList<>();
         Person p = new Person();
         p.id="1";
-        p.name="MarcoGalvez";
+        p.name="MarcoGalvez1";
         people.add(p);
         return people;
     }
